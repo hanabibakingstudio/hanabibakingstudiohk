@@ -1,1 +1,342 @@
-<h1>Hanabi Baking Studio</h1>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hanabi Baking Studio 花日烘焙教室 — 觀塘精品烘焙教室，提供一人成班、私人定制烘焙體驗。">
+  <title>Hanabi Baking Studio 花日烘焙教室</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <img src="images/logo.png" alt="Hanabi Baking Studio 花日烘焙教室" class="nav__logo-img">
+        <span class="nav__logo-text">花日烘焙教室</span>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">關於我們</a></li>
+        <li><a href="#why-us" class="nav__link">為何選擇</a></li>
+        <li><a href="#classes" class="nav__link">熱門課程</a></li>
+        <li><a href="#gallery" class="nav__link">作品廊</a></li>
+        <li><a href="#testimonials" class="nav__link">學員分享</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero cover (no text overlay) -->
+    <section class="hero" id="hero">
+      <img src="images/studio-cover.jpg" alt="Hanabi Baking Studio 花日烘焙教室" class="hero__cover">
+    </section>
+
+    <!-- Hero intro -->
+    <section class="hero-intro section--cream">
+      <div class="container hero-intro__inner">
+        <p class="hero-intro__eyebrow reveal">Hanabi Baking Studio</p>
+        <h1 class="hero-intro__title reveal">花日烘焙教室</h1>
+        <p class="hero-intro__subtitle reveal">觀塘專業烘焙場地 · 單堂興趣班 · 團體包班 · 租場</p>
+        <p class="hero-intro__desc reveal">在溫暖的光線裡，慢下來，親手創造屬於你的甜蜜時光。<br>600呎寬敞空間，一人即可成班，歡迎各式烘焙體驗及場地租用。</p>
+        <a href="#contact" class="btn btn--gold reveal">預約體驗 / 查詢租場</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--cream" id="about">
+      <div class="container about">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">About Hanabi</span>
+          <h2 class="section__title">關於花日</h2>
+          <div class="section__divider"></div>
+        </div>
+        <div class="about__grid">
+          <div class="about__image-wrap reveal">
+            <img src="images/WhatsApp Image 2026-02-20 at 13.57.45.jpeg" alt="花日烘焙教室作品" class="about__image">
+            <div class="about__image-accent"></div>
+          </div>
+          <div class="about__text reveal">
+            <p class="about__lead">花日烘焙教室，是一間藏身於觀塘工業中心的專業烘焙空間。我們提供單堂興趣班、團體包班及場地租用，配備專業焗爐、雪櫃及600呎寬敞工作台，適合開班教學、生日派對、私人烘焙練習、專業拍攝及各式手作課程。</p>
+            <p>在這裡，沒有匆忙的節奏，只有面粉輕柔的觸感、烤箱緩緩升起的香氣，以及完成作品時那份難以言喻的滿足。無論你是初次踏入烘焙世界的新手，還是希望精進技藝的愛好者，我們都為你準備了最舒適、最專注的學習環境。</p>
+            <p>每一堂課，都是一次用心設計的體驗——小班教學、一對一關注，讓你在寧靜優雅的氛圍中，找到屬於自己的烘焙節奏。</p>
+            <blockquote class="about__quote">
+              <span>「花開一日，日短情長。」</span>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section section--blush" id="why-us">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Why Choose Us</span>
+          <h2 class="section__title">為何選擇花日</h2>
+          <div class="section__divider section__divider--center"></div>
+          <p class="section__desc">專為香港都市人打造的精品烘焙體驗，每一個細節都為你而設。</p>
+        </div>
+        <div class="features">
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="feature-card__title">觀塘地鐵 D4 出口直達</h3>
+            <p class="feature-card__text">位處觀塘工業中心第三期，港鐵觀塘站 D4 出口一出即到，交通極致便利，輕鬆融入你的週末計劃。</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="feature-card__title">600呎寬敞空間</h3>
+            <p class="feature-card__text">600平方呎的明亮工作室，設備齊全、動線流暢，讓你在寬裕舒適的環境中盡情創作。</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M6 21v-2a6 6 0 0 1 12 0v2"/></svg>
+            </div>
+            <h3 class="feature-card__title">所有課堂1人成班</h3>
+            <p class="feature-card__text">無需湊夠人數，一人即可開班。專屬你的烘焙時光，導師全程一對一悉心指導。</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="feature-card__title">2人可夾時間開班</h3>
+            <p class="feature-card__text">與好友相約，靈活協調上課時間。兩人同行，共享烘焙的樂趣與甜蜜回憶。</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="feature-card__title">4人可包班</h3>
+            <p class="feature-card__text">生日聚會、閨蜜約會、團隊活動——四人即可包班，專屬時段，打造難忘的烘焙派對。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Classes -->
+    <section class="section section--cream" id="classes">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Popular Classes</span>
+          <h2 class="section__title">熱門課程</h2>
+          <div class="section__divider section__divider--center"></div>
+          <p class="section__desc">精選最受歡迎的烘焙課程，從經典到創新，總有一款打動你。</p>
+        </div>
+        <div class="classes">
+          <article class="class-card reveal">
+            <div class="class-card__image-wrap">
+              <img src="images/473450014_122187322058121376_8935688263480538054_n.jpg" alt="經典戚風蛋糕課程" class="class-card__image">
+              <span class="class-card__badge">人氣之選</span>
+            </div>
+            <div class="class-card__body">
+              <h3 class="class-card__title">日式蒙布朗</h3>
+              <p class="class-card__desc">學習製作經典法式蒙布朗，以細膩的栗子蓉擠花，打造層次豐富、優雅精緻的秋日甜點。</p>
+              <div class="class-card__meta">
+                <span>約 3 小時</span>
+                <span>初級</span>
+              </div>
+              <a href="#contact" class="class-card__link">查詢預約 →</a>
+            </div>
+          </article>
+          <article class="class-card reveal">
+            <div class="class-card__image-wrap">
+              <img src="images/614465732_122245522652121376_9209495243498612201_n.jpg" alt="法式馬卡龍課程" class="class-card__image">
+              <span class="class-card__badge">精選推薦</span>
+            </div>
+            <div class="class-card__body">
+              <h3 class="class-card__title">手工日式曲奇</h3>
+              <p class="class-card__desc">探索抹茶、黑芝麻與經典奶油曲奇三款風味，掌握比例、搓揉與烘烤技巧，完成伴手禮級別的酥脆曲奇。</p>
+              <div class="class-card__meta">
+                <span>約 4 小時</span>
+                <span>中級</span>
+              </div>
+              <a href="#contact" class="class-card__link">查詢預約 →</a>
+            </div>
+          </article>
+          <article class="class-card reveal">
+            <div class="class-card__image-wrap">
+              <img src="images/539768575_17928945165095876_258846342378631907_n.jpeg" alt="季節限定花束蛋糕課程" class="class-card__image">
+              <span class="class-card__badge">季節限定</span>
+            </div>
+            <div class="class-card__body">
+              <h3 class="class-card__title">造型和菓子</h3>
+              <p class="class-card__desc">以季節為靈感，製作可愛討喜的造型和菓子。適合送禮，也適合與孩子一起享受手作的樂趣。</p>
+              <div class="class-card__meta">
+                <span>約 4.5 小時</span>
+                <span>中級</span>
+              </div>
+              <a href="#contact" class="class-card__link">查詢預約 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section--blush" id="gallery">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Gallery</span>
+          <h2 class="section__title">作品廊</h2>
+          <div class="section__divider section__divider--center"></div>
+          <p class="section__desc">每一張照片，都記錄著學員們在花日創造的美好瞬間。</p>
+        </div>
+        <div class="gallery reveal" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section--cream" id="testimonials">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Testimonials</span>
+          <h2 class="section__title">學員分享</h2>
+          <div class="section__divider section__divider--center"></div>
+        </div>
+        <div class="testimonials">
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__quote-mark">"</div>
+            <p class="testimonial-card__text">第一次上烘焙課就選了花日，完全沒有失望。導師好有耐心，環境又靚又乾淨，整個過程好治癒。成品比想像中還要靚，已經約好下次再來！</p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__name">Michelle L.</span>
+              <span class="testimonial-card__class">戚風蛋糕課程</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__quote-mark">"</div>
+            <p class="testimonial-card__text">同閨蜜一齊包班慶生，係我哋今年最開心嘅生日活動。導師好專業，4個人都可以各自有進度，最後每人拎走一個自己整嘅蛋糕，超有成就感。</p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__name">Cindy &amp; Friends</span>
+              <span class="testimonial-card__class">包班體驗</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card reveal">
+            <div class="testimonial-card__quote-mark">"</div>
+            <p class="testimonial-card__text">觀塘站 D4 出口一出就到，對我嚟講超方便。600呎嘅空間好闊落，一個人上堂都唔會覺得尷尬。強烈推薦俾想試下烘焙但又怕冇伴嘅朋友。</p>
+            <footer class="testimonial-card__author">
+              <span class="testimonial-card__name">Jason T.</span>
+              <span class="testimonial-card__class">馬卡龍課程</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--blush" id="contact">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Contact</span>
+          <h2 class="section__title">聯絡我們</h2>
+          <div class="section__divider section__divider--center"></div>
+          <p class="section__desc">歡迎透過以下方式查詢課程及預約，我們期待與你見面。</p>
+        </div>
+        <div class="contact reveal">
+          <div class="contact__actions">
+            <a href="https://wa.me/85251396616" class="contact-btn contact-btn--whatsapp" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              <span>WhatsApp 5139 6616</span>
+            </a>
+            <a href="https://www.instagram.com/hanabi_bakingstudio" class="contact-btn contact-btn--instagram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <span>@hanabi_bakingstudio</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61553641296482" class="contact-btn contact-btn--facebook" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a href="mailto:hanabibakingstudio@gmail.com" class="contact-btn contact-btn--email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+              <span>hanabibakingstudio@gmail.com</span>
+            </a>
+          </div>
+          <div class="contact__info">
+            <div class="contact__card">
+              <h3 class="contact__card-title">工作室地址</h3>
+              <address class="contact__address">
+                香港九龍觀塘<br>
+                觀塘道436–484號<br>
+                觀塘工業中心 第三期<br>
+                <span class="contact__note">（港鐵觀塘站 D4 出口，一出即到）</span>
+              </address>
+            </div>
+            <div class="contact__card">
+              <h3 class="contact__card-title">開放時間</h3>
+              <p class="contact__hours">
+                採預約制，不設固定 walk-in 開放<br>
+                常見課堂時段：12:30 / 15:30 / 19:00<br>
+                <span class="contact__note">* 實際時間視課程及租場安排，請 WhatsApp 或 IG 查詢</span>
+              </p>
+            </div>
+            <div class="contact__card">
+              <h3 class="contact__card-title">場地租用</h3>
+              <p class="contact__hours">
+                專業烘焙場地，歡迎各式租用：<br>
+                開班教學 · 生日派對 · 私人練習<br>
+                專業拍攝 · 手作課程<br>
+                <span class="contact__note">詳情歡迎 DM 或 WhatsApp 查詢</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="images/logo.png" alt="Hanabi Baking Studio" class="footer__logo">
+        <p class="footer__tagline">花日烘焙教室 · Hanabi Baking Studio</p>
+        <p class="footer__tagline-jp">花開一日，日短情長</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">關於我們</a>
+        <a href="#classes">熱門課程</a>
+        <a href="#gallery">作品廊</a>
+        <a href="#contact">聯絡我們</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/hanabi_bakingstudio" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61553641296482" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://wa.me/85251396616" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Hanabi Baking Studio 花日烘焙教室. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightbox-close" aria-label="關閉">&times;</button>
+    <img src="" alt="" class="lightbox__image" id="lightbox-image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
